@@ -1,14 +1,14 @@
 h1
     {
-        color:rgb(112, 72, 185);
+        color:rgb(105, 58, 4);
     }
 h2
     {
-        color:rgb(72, 114, 206);
+        color:rgb(39, 143, 228);
     }
 h3
     {
-        color:darkblue;
+        color:rgb(163, 218, 74);
     }
 h4
     {
@@ -16,7 +16,25 @@ h4
     }
 h4:hover
     {
-        color:darkslateblue;
+        color:rgb(144, 236, 121);
         font-size: 14pt;
         font-style: oblique;
+    }
+
+    a
+    {
+        color:rgb(16, 4, 92);
+        font-size: 20pt;
+        padding-right: 30px;
+        text-decoration:none;
+        font-style:oblique;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 100;
+    
+    }
+
+    a:hover
+    {
+        color: rgb(243, 90, 29);
+        background-color: rgb(236, 243, 134);
     }
