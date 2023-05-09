@@ -1,32 +1,22 @@
 h1
-{
-    color:rgb(11, 148, 211);
-}
-h1:hover
-{
-    color:rgb(16, 20, 223);
-    font-size: 50pt;
-}
+    {
+        color:rgb(112, 72, 185);
+    }
 h2
-{
-    color:rgb(11, 58, 211);   
-}
-h2:hover
-{
-    color:cadetblue;
-    font-style: italic;
-    font-size: 40 pt;
-}
+    {
+        color:rgb(72, 114, 206);
+    }
 h3
-{
-    color:maroon;
-}
-h3:hover
-{
-    color:rgb(235, 120, 12);
-    font-size: 30 pt;
-}
-figure
-{
-    color:rgb(70, 0, 128);
-}
+    {
+        color:darkblue;
+    }
+h4
+    {
+        color:dodgerblue;
+    }
+h4:hover
+    {
+        color:darkslateblue;
+        font-size: 14pt;
+        font-style: oblique;
+    }
