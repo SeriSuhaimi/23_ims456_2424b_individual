@@ -1,3 +1,10 @@
+body
+{
+    background-color: bisque;
+
+}
+
+
 h1
     {
         color:rgb(105, 58, 4);
@@ -14,27 +21,101 @@ h4
     {
         color:dodgerblue;
     }
-h4:hover
-    {
-        color:rgb(144, 236, 121);
-        font-size: 14pt;
-        font-style: oblique;
-    }
 
-    a
-    {
-        color:rgb(16, 4, 92);
-        font-size: 20pt;
-        padding-right: 30px;
-        text-decoration:none;
-        font-style:oblique;
-        font-family:'Times New Roman', Times, serif;
-        font-weight: 100;
-    
-    }
+a{
+    font-size: 18pt;
+    padding-right: 30px;
+    font-family: arial;
+    text-decoration: none;
+    color: brown;
+}
+a:hover
+{
+font-size: 22pt;
+font-family: impact;
+color: rgb(89, 0, 255);
+background-color: rgb(250, 238, 170);
+}
 
-    a:hover
-    {
-        color: rgb(243, 90, 29);
-        background-color: rgb(236, 243, 134);
-    }
+.logo
+{
+    width: 30%;
+    height: 50px;
+    background-color: rgb(253, 236, 162);
+    float:left;
+}
+
+.menu
+{
+    width:70%;
+    height:50px;
+    background-color: rgb(253, 236, 162);
+    float: left;
+}
+
+.slider
+{
+    width:100%;
+    height:500px;
+    background-color: coral;
+    float: left;  
+}
+
+.box1
+{
+    width:25%;
+    height:250px;
+    background-color: rgb(231, 250, 122);
+    float: left;  
+}
+
+.box2
+{
+    width:25%;
+    height:250px;
+    background-color: rgb(245, 149, 149);
+    float: left;  
+}
+
+.box3
+{
+    width:25%;
+    height:250px;
+    background-color: rgb(163, 252, 197);
+    float: left;  
+}
+
+.box4
+{
+    width:25%;
+    height:250px;
+    background-color: rgb(143, 189, 248);
+    float: left;  
+}
+
+
+#biodata {
+    margin-top: 20px;
+  }
+  
+  .biodata-info {
+    margin-bottom: 20px;
+  }
+  
+  .biodata-info h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .biodata-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .biodata-info li {
+    margin-bottom: 5px;
+  }
+  
+  .biodata-info strong {
+    font-weight: bold;
+  }
